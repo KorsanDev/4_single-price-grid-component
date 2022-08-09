@@ -1,0 +1,30 @@
+:root{
+/* Colors */
+/* Primary */
+--cyan: hsl(179, 62%, 43%)
+--bright Yellow: hsl(71, 73%, 54%)
+/* Neutral */
+--light Gray: hsl(204, 43%, 93%)
+--grayish Blue: hsl(218, 22%, 67%)
+}
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+  }
+/* ------------------Start Footer------------------ */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  /* ------------------End Footer------------------ */
